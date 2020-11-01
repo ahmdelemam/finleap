@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'geokit'
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = 'https://rubygems.org'
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ahmdelemam/finleap"
   spec.metadata["changelog_uri"] = "https://github.com/ahmdelemam/finleap"
