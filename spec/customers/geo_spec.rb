@@ -1,4 +1,4 @@
-RSpec.describe Fineleap::Customers::Geo do
+RSpec.describe Finleap::Customers::Geo do
   describe '.in_range' do
     subject(:customers) { described_class.in_range(distance_range) }
     let(:distance_range) { 100 }

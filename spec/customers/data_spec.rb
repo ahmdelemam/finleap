@@ -1,4 +1,4 @@
-RSpec.describe Fineleap::Customers::Data do
+RSpec.describe Finleap::Customers::Data do
   describe '.all' do
     subject(:customers_data) { described_class.all }
 

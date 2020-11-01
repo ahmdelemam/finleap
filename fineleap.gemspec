@@ -1,13 +1,13 @@
-require_relative 'lib/fineleap/version'
+require_relative 'lib/finleap/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "fineleap"
-  spec.version       = Fineleap::VERSION
+  spec.name          = "finleap"
+  spec.version       = Finleap::VERSION
   spec.authors       = ["ahmdelemam"]
   spec.email         = ["ahmdelemam@gmail.com"]
 
-  spec.summary       = %q{fineleap gem summary}
-  spec.description   = %q{fineleap gem description}
+  spec.summary       = %q{finleap gem summary}
+  spec.description   = %q{finleap gem description}
   spec.homepage      = "https://github.com/ahmdelemam/finleap"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")

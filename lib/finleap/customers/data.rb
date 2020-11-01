@@ -1,6 +1,6 @@
 require 'json'
 
-module Fineleap
+module Finleap
   module Customers
     class Data
       def self.all

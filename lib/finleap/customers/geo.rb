@@ -2,7 +2,7 @@ require 'geokit'
 
 Geokit::default_units = :kms # others :kms, :nms, :meters
 
-module Fineleap
+module Finleap
   module Customers
     class Geo
       BERLIN_OFFICE_LAT = 52.508283

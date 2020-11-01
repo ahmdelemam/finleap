@@ -1,3 +1,3 @@
-module Fineleap
+module Finleap
   VERSION = "0.1.0"
 end
