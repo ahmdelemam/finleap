@@ -1,9 +1,6 @@
 RSpec.describe Fineleap do
   it "has a version number" do
     expect(Fineleap::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(Fineleap::VERSION).to eq('0.1.0')
   end
 end

@@ -12,8 +12,11 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'geokit'
 
+  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/ahmdelemam/finleap"
   spec.metadata["changelog_uri"] = "https://github.com/ahmdelemam/finleap"
